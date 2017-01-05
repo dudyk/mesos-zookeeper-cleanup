@@ -1,7 +1,7 @@
 {
   "volumes": null,
   "id": "cleaner",
-  "cmd": "wget -O index.js \"http://github.com/dudyk/mesos-zookeeper-cleanup/blob/master/index.js\" && sleep 30 && npm install node-zookeeper-client && node index.js ",
+  "cmd": "wget -O index.js \"http://raw.githubusercontent.com/dudyk/mesos-zookeeper-cleanup/master/index.js\" && sleep 30 && npm install node-zookeeper-client && node index.js ",
   "args": null,
   "user": null,
   "env": {
